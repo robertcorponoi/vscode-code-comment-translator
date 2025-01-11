@@ -1,0 +1,35 @@
+{
+	"compilerOptions": {
+		// Sets the system module for the program.
+		// https://www.typescriptlang.org/tsconfig/#module
+		"module": "Node16",
+		// Determines which JS features are downleveled and which are left
+		// intact.
+		// https://www.typescriptlang.org/tsconfig/#target
+		"target": "ES2022",
+		// The set of type definitions that are included.
+		// https://www.typescriptlang.org/tsconfig/#lib
+		"lib": ["ES2022"],
+		// Enables the generation of sourcemap files.
+		// https://www.typescriptlang.org/tsconfig/#sourceMap
+		"sourceMap": true,
+		// The longest common path of all non-declaration files.
+		// https://www.typescriptlang.org/tsconfig/#rootDir
+		"rootDir": "src",
+		// Enables a wide range of type checking behavior that results in
+		// stronger guarantees of of program correctness.
+		// https://www.typescriptlang.org/tsconfig/#strict
+		"strict": true,
+		/* Additional Checks */
+		// Have TypeScript check all code paths in a function to ensure they
+		// return a value.
+		// https://www.typescriptlang.org/tsconfig/#noImplicitReturns
+		"noImplicitReturns": true,
+		// Reports errors for fallthrough cases in switch statements.
+		// https://www.typescriptlang.org/tsconfig/#noFallthroughCasesInSwitch
+		"noFallthroughCasesInSwitch": true,
+		// Reports errors on unused parameters in functions.
+		// https://www.typescriptlang.org/tsconfig/#noUnusedParameters
+		"noUnusedParameters": true
+	}
+}
